@@ -1,0 +1,1453 @@
+
+:root {
+    --main-color: rgb(206, 206, 206);
+    --secodary-color: rgb(0, 0, 0);
+    --home-color: rgb(0, 255, 183);
+    --hol-color: rgba(60, 255, 0, 0.071);
+    --back-color: rgba(196, 196, 196, 0.225);
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+    padding-left: 22.5px;
+    padding-right: 22.5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px ) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px ) {
+    .container {
+        width: 970px ;
+    }
+}
+@media (min-width: 1200px ) {
+    .container { 
+       width: 1170px ;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        padding-left: 21.5px;
+        padding-right: 21.5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.header {
+    background-color: transparent;
+    position: relative;
+}
+.header
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header
+.tit a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--secodary-color);
+    font-weight: bold;
+}
+.header
+.container
+.flex ul {
+    margin: ;
+    display: flex;
+    justify-content: space-between;
+    gap: 29.5px;
+    align-items: center;
+    list-style: none;
+}
+.header
+.container
+.flex ul a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--secodary-color);
+    font-weight: bold;
+}
+.header
+.container
+.flex2 ul {
+    margin: ;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 19.5px;
+    align-items: center;
+    list-style: none;
+    text-align: end;
+    padding-left: 0px;
+}
+.header
+.container
+.flex2 ul a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--secodary-color);
+    font-weight: bold;
+}
+
+/* HEADER PAGE MIDIA */
+@media (max-width: 767px) {
+    .header
+    .container {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 5.5px;
+        text-align: start;
+        background-color: transparent;
+        height: auto;
+    }
+.header
+.tit a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--secodary-color);
+    font-weight: bold;
+    font-size: 19.5px;
+}
+.header
+.container
+.flex ul {
+    position: ;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 19.5px;
+    align-items: start;
+    list-style: none;
+    padding: 0;
+}
+.header
+.container
+.flex ul a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--secodary-color);
+    font-weight: bold;
+    font-size: 11.7px;
+}
+.header
+.container
+.flex2 ul {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 19.5px;
+    align-items: center;
+    list-style: none;
+    text-align: end;
+    padding-left: 0px;
+}
+.header
+.container
+.flex2 ul a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--secodary-color);
+    font-weight: bold;
+    font-size: 11.7px;
+}
+}
+
+/* FIND-PAGE */
+.find {
+    background-color: transparent;
+    position: relative;
+    height: 410.1px;
+    padding-bottom: 35.5px;
+}
+.find
+.container {
+    background-color: transparent;
+    position: relative;
+    height: 100%;
+}
+.find
+.find-spc {
+    background-image: url(../img/Screenshot-2022-02-24-at-09.55.04.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 80%;
+    right: 0;
+    position: absolute;
+    margin-right: 22.5px;
+}
+.find
+.find-spc .nuberfind {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7.5px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.find
+.find-spc .nuberfind div {
+    background-color: transparent;
+    padding: 7.5px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.find
+.find-cont {
+    background-color: transparent;
+    width: fit-content;
+    padding: 9.5px;
+    position: absolute;
+    top: 80.1px;
+}
+.find
+.find-cont h2 {
+    text-transform: capitalize;
+    font-size: 39.9px;
+    font-weight: 800;
+    width: 58%;
+}
+.find
+.find-cont form {
+    background-color: rgb(198, 198, 198);
+    height: 41.5px;
+    width: 45%;
+    height: 45.1px;
+    position: relative;
+    border: 1.5px solid rgb(248, 248, 248);
+    outline: 2.5px solid rgb(248, 248, 248);
+    z-index: 5;
+}
+.find
+.find-cont form .search {
+    background-color: rgb(248, 248, 248);
+    text-transform: capitalize;
+    font-weight: 800;
+    width: 100%;
+    height: 100%;
+    border: 1.5px solid rgb(248, 248, 248);
+    outline: 1.5px solid rgb(248, 248, 248);
+}
+.find
+.find-cont form .submit {
+    background-color: yellow;
+    text-transform: capitalize;
+    font-weight: 800;
+    width: 20.50%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    padding: 3.5px;
+    border: 1.5px solid rgb(248, 248, 248);
+    outline: 2.5px solid rgb(248, 248, 248);
+}
+
+/* FIND-PAGE MEDIA */
+@media (max-width: 767px) {
+    .find {
+        background-color: transparent;
+        position: relative;
+        height: 410.1px;
+        padding-bottom: 35.5px;
+    }
+    .find
+    .container {
+        background-color: transparent;
+        position: relative;
+        height: 100%;
+    }
+    .find
+    .container
+    .find-spc {
+    background-image: url(../img/Screenshot-2022-02-24-at-09.55.04.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.find
+.find-spc .nuberfind {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7.5px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.find
+.find-spc .nuberfind div {
+    background-color: transparent;
+    padding: 7.5px;
+    text-align: center;
+    font-size: 13.5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.find
+.find-cont {
+    background-color: transparent;
+    margin: 11.5px auto;
+    width: 250.5px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.find
+.find-cont h2 {
+    text-transform: capitalize;
+    font-size: 15.5px;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+}
+.find
+.find-cont form {
+    background-color: rgb(248, 248, 248);
+    height: 41.5px;
+    width: 100%;
+    height: 35.1px;
+    position: relative;
+    border: 1.5px solid rgb(248, 248, 248);
+    outline: 2.5px solid rgb(248, 248, 248);
+    z-index: 5;
+}
+.find
+.find-cont form .search {
+    background-color: transparent;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 15.5PX;
+    width: 100%;
+    height: 100%;
+    border: 1.5px solid rgb(248, 248, 248);
+    outline: 1.5px solid rgb(248, 248, 248);
+}
+.find
+.find-cont form .submit {
+    background-color: yellow;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 15.5PX;
+    width: 30.50%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    padding: 3.5px;
+    border: 1.5px solid rgb(248, 248, 248);
+    outline: 2.5px solid rgb(248, 248, 248);
+}
+}
+
+/* OUR'S */
+.ours {
+    background-color: transparent;
+    padding-top: 35.9px;
+    padding-bottom: 35.9px;
+    position: relative;
+}
+.ours
+.container {
+    background-color: transparent;
+    position: relative;
+}
+.ours
+.ours-grido {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 11.5px;
+}
+.ours
+.ours-grido .grid1 {
+    background-color: transparent;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    gap: 15.5px;
+}
+.ours
+.ours-grido .grid1 .grid01 h2  {
+    background-color: transparent;
+    font-size: 37.5px;
+    font-weight: 800;
+    text-align: start;
+    margin: 0;
+    text-transform: capitalize;
+}
+.ours
+.ours-grido .grid1 div {
+    background-color: transparent;
+    text-align: center;
+    padding: 15.5px;
+    font-size: 13.5px;
+    text-align: start;
+}
+.ours
+.ours-grido .grid1 div p {
+    margin: 0;
+}
+.ours
+.ours-grido .grid2 {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15.5px;
+    position: relative;
+}
+.ours
+.ours-grido .grid2 div {
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+    padding: 5.5px;
+    font-size: 53.5px;
+    font-weight: 800;
+    color: darkorange;
+    position: relative;
+}
+.ours
+.ours-grido .grid2 div .transf {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ours
+.ours-grido .grid2 div p {
+    font-size: 13.5px;
+    margin: 0;
+    color: darkblue;
+}
+
+/* OUR'S MEDIA */
+@media (max-width: 767px) {
+    .ours {
+        background-color: transparent;
+        padding-top: 35.9px;
+        padding-bottom: 35.9px;
+        position: relative;
+    }
+    .ours
+    .container {
+        background-color: transparent;
+        position: relative;
+    }
+    .ours
+.ours-grido {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5.5px;
+}
+.ours
+.ours-grido .grid1 {
+    background-color: transparent;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    gap: 5.5px;
+}
+.ours
+.ours-grido .grid1 .grid01 h2  {
+    background-color: transparent;
+    font-size: 27.5px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+}
+.ours
+.ours-grido .grid1 div {
+    background-color: transparent;
+    text-align: center;
+    padding: 15.5px;
+    font-size: 13.5px;
+    text-align: center;
+}
+.ours
+.ours-grido .grid1 div p {
+    margin: 0;
+    font-size: 13.5px;
+}
+.ours
+.ours-grido .grid2 {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5.5px;
+    position: relative;
+}
+.ours
+.ours-grido .grid2 div {
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+    padding: 15.5px;
+    font-size: 23.5px;
+    font-weight: 800;
+    color: darkorange;
+    position: relative;
+}
+.ours
+.ours-grido .grid2 div .transf {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ours
+.ours-grido .grid2 div p {
+    font-size: 13.5px;
+    margin: 0;
+    color: darkblue;
+}
+}
+
+/* MORE */
+.more {
+    background-color: rgb(234, 234, 234);
+    padding-top: 35.5px;
+    padding-bottom: 35.5px;
+    position: relative;
+}
+.more
+.container {
+    background-color: transparent;
+    position: relative;
+}
+.more
+.moretit {
+    background-color: transparent;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 35.5px;
+    margin-top: 0;
+    width: 50%;
+}
+.more
+.more-grid {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 11.5px;
+    position: relative;
+    padding-bottom: 35.5px;
+}
+.more
+.more-grid .one {
+    background-image: url(../img/Screenshot-2022-02-24-at-09.55.04.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 111.5px;
+    position: relative;
+    width: 100%;
+}
+.more
+.more-grid .one01 {
+    background-color: white;
+    gap: 7.5px;
+    width: 100%;
+    height: auto;
+    padding: 5.9px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.more
+.more-grid .one01 div {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+}
+.more
+.more-grid .one01 h3 {
+    margin: 0 0 9.5px 0;
+    font-size: 17.5px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.more
+.more-grid .one01 div span {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 21.5px;
+}
+.more
+.more-grido1 {
+    position: relative;
+    background-color: transparent;
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.more
+.more-grido1 form {
+    background-color: transparent;
+    width: 60%;
+    height: 35.5px;
+    position: relative;
+    border: 2.5px solid white;
+    outline: 2.5px solid white;
+}
+.more
+.more-grido1 form 
+.search {
+    background-color: white;
+    width: 75%;
+    height: 100%;
+    border: 2.5px solid white;
+    outline: 2.5px solid white;
+}
+.more
+.more-grido1 form 
+.submit {
+    position: absolute;
+    background-color: yellow;
+    width: 25%;
+    height: 100%;
+    border: 2.5px solid yellow;
+    outline: 2.5px solid yellow;
+}
+.more
+.more-grido1 div {
+    background-color: white;
+    width: 23.1%;
+    padding: 11.5px 5.5px 5.5px 5.5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13.5px;
+    text-transform: capitalize;
+}
+.more
+.more-grido1 div p {
+    margin: 0;
+}
+
+/* MORE MEDIA */
+@media (max-width: 767px) {
+    .more {
+        background-color: rgb(234, 234, 234);
+        padding-top: 35.5px;
+        padding-bottom: 35.5px;
+        position: relative;
+    }
+    .more
+    .container {
+        background-color: transparent;
+        position: relative;
+    }
+    .more
+.moretit {
+    background-color: transparent;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 15.5px;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}
+.more
+.more-grid {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 11.5px;
+    position: relative;
+    padding-bottom: 35.5px;
+}
+.more
+.more-grid .one {
+    background-image: url(../img/Screenshot-2022-02-24-at-09.55.04.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 111.5px;
+    position: relative;
+    width: 100%;
+}
+.more
+.more-grid .one01 {
+    background-color: white;
+    gap: 7.5px;
+    width: 100%;
+    height: auto;
+    padding: 5.9px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.more
+.more-grido1 {
+    position: relative;
+    background-color: transparent;
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.more
+.more-grido1 form {
+    background-color: transparent;
+    width: 59%;
+    height: 35.5px;
+    position: relative;
+    border: 2.5px solid white;
+    outline: 2.5px solid white;
+}
+.more
+.more-grido1 form 
+.search {
+    background-color: white;
+    width: 65%;
+    height: 100%;
+    border: 2.5px solid white;
+    outline: 2.5px solid white;
+}
+.more
+.more-grido1 form 
+.submit {
+    position: absolute;
+    background-color: yellow;
+    width: 35%;
+    height: 100%;
+    border: 2.5px solid yellow;
+    outline: 2.5px solid yellow;
+}
+.more
+.more-grido1 div {
+    background-color: white;
+    width: 33.1%;
+    padding:11.5px 5.5px 5.5px 5.5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 8.5px;
+    text-transform: capitalize;
+}
+}
+/* HOW */ 
+.how {
+    background-color: transparent;
+    padding-top: 35.5px;
+    padding-bottom: 35.5px;
+    position: relative;
+}
+.how
+.container {
+    background-color: transparent;
+    position: relative;
+}
+.how
+.tithow {
+    background-color: transparent;
+    width: 41%;
+}
+.how
+.tithow h2 {
+    font-size: 35.5px;
+    margin-top: 0;
+    margin-bottom: 9.5px;
+    text-transform: capitalize;
+}
+.how
+.tithow p {
+    font-size: 13.5px;
+    margin-top: 0;
+}
+.how
+.how-grid {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 11.5px;
+}
+.how
+.how-grid .one1 {
+    background-color: yellow;
+    text-align: start;
+    padding: 31.5px;
+    display: flex;
+    gap: 11.5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.how
+.how-grid .one1 div h3 {
+    margin-top: 0;
+}
+.how
+.how-grid .one1 div p {
+    font-size: 12.1px;
+}
+.how
+.how-grid .one1 div h4 {
+    width: fit-content;
+    text-transform: capitalize;
+    padding: 3.5px 3.5px 3.5px 0;
+    border-bottom: 1.5px solid black;
+}
+.how
+.how-grid .one {
+    background-color: white;
+    text-align: start;
+    padding: 31.5px;
+    display: flex;
+    gap: 11.5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.how
+.how-grid .one div h3 {
+    margin-top: 0;
+}
+.how
+.how-grid .one div p {
+    font-size: 12.1px;
+}
+.how
+.how-grid .one div h4 {
+    width: fit-content;
+    text-transform: capitalize;
+    padding: 3.5px 3.5px 3.5px 0;
+    border-bottom: 1.5px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+/* MORE MEDIA */
+@media (max-width: 767px) {
+    .how
+.tithow {
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+.how
+.tithow h2 {
+    font-size: 35.5px;
+    margin-top: 0;
+    margin-bottom: 9.5px;
+    text-transform: capitalize;
+}
+.how
+.tithow p {
+    font-size: 13.5px;
+    margin-top: 0;
+}
+.how
+.how-grid {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 11.5px;
+}
+.how
+.how-grid .one1 {
+    background-color: yellow;
+    text-align: center;
+    padding: 31.5px;
+    display: flex;
+    gap: 11.5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.how
+.how-grid .one1 div h3 {
+    margin-top: 0;
+}
+.how
+.how-grid .one1 div p {
+    font-size: 12.1px;
+}
+.how
+.how-grid .one1 div h4 {
+    width: fit-content;
+    margin: 3.5px auto;
+    text-transform: capitalize;
+    padding: 7.5px 3.5px 3.5px 0;
+    border-bottom: 1.5px solid black;
+}
+.how
+.how-grid .one {
+    background-color: white;
+    text-align: center;
+    padding: 31.5px;
+    display: flex;
+    gap: 11.5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.how
+.how-grid .one div h4 {
+    width: fit-content;
+    margin: 7.5px auto;
+    text-transform: capitalize;
+    padding: 3.5px 3.5px 3.5px 0;
+    border-bottom: 1.5px solid black;
+}
+}
+
+/* SERVICES */
+.sevieces {
+    background-color: transparent;
+    padding-top: 35.5px;
+    padding-bottom: 35.5px;
+    position: relative;
+}
+.sevieces
+.container {
+    background-color: transparent;
+}
+.sevieces
+.titservices {
+    background-color: transparent;
+    width: 31%;
+}
+.sevieces
+.titservices h2 {
+    font-size: 35.5px;
+    margin-top: 0;
+    margin-bottom: 9.5px;
+    text-transform: capitalize;
+}
+.sevieces
+.titservices p {
+    font-size: 13.5px;
+    margin-top: 0;
+}
+.sevieces
+.srv-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9.5px;
+}
+.sevieces
+.srv-grid .one {
+    background-image: url(../img/wood-ribbon-apartment-interiors-paris-toledano-architects_dezeen_sq-1.webp);
+    background-size: cover;
+    background-position: center;
+}
+.sevieces
+.srv-grid .tow {
+    background-color: transparent;
+    padding: 1px 9.9px 9.9px 19.9px;
+    text-align: start;
+}
+.sevieces
+.srv-grid .tow .toweh {
+    margin-top: 0;
+}
+.sevieces
+.srv-grid .tow h3 {
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.sevieces
+.srv-grid .tow p {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 13.9px;
+}
+
+/* SRVICES MEDIA */
+@media (max-width: 767px) {
+    .sevieces
+.titservices {
+    background-color: transparent;
+    width: 100%;
+}
+.sevieces
+.titservices h2 {
+    font-size: 35.5px;
+    margin-top: 0;
+    margin-bottom: 9.5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.sevieces
+.titservices p {
+    font-size: 13.5px;
+    margin-top: 0;
+    text-align: center;
+}
+    .sevieces
+.srv-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 9.5px;
+}
+.sevieces
+.srv-grid .one {
+    background-image: url(../img/wood-ribbon-apartment-interiors-paris-toledano-architects_dezeen_sq-1.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 150.9px;
+}
+.sevieces
+.srv-grid .tow {
+    background-color: transparent;
+    padding: 1px 9.9px 9.9px 19.9px;
+    text-align: center;
+}
+.sevieces
+.srv-grid .tow .toweh {
+    margin-top: 0;
+}
+.sevieces
+.srv-grid .tow h3 {
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.sevieces
+.srv-grid .tow p {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 13.9px;
+}
+}
+
+/* MEET */
+.meet {
+    background-color: rgb(234, 234, 234);
+    padding-top: 35.5px;
+    padding-bottom: 35.5px;
+    position: relative;
+}
+.meet
+.container {
+    background-color: transparent;
+    position: relative;
+}
+.meet
+.titmeet {
+    background-color: transparent;
+    width: 45%;
+}
+.meet
+.titmeet h2 {
+    text-transform: capitalize;
+    font-size: 35.5px;
+    font-weight: 800;
+    margin-top: 0;
+}
+.meet
+.titmeet p {
+    font-size: 13.5px;
+    text-transform: capitalize;
+}
+.meet
+.meet-grid {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 11.5px;
+    position: relative;
+}
+.meet
+.meet-grid .one {
+    background-image: url(../img/wood-ribbon-apartment-interiors-paris-toledano-architects_dezeen_sq-1.webp);
+    background-size: cover;
+    background-position: bottom;
+    padding: 111.5px;
+    position: relative;
+    width: 100%;
+}
+.meet
+.meet-grid .one .one001 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding: 5.9px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.meet
+.meet-grid .one .one001 h3 {
+    background-color: transparent;
+    margin-top: 0;
+    margin-bottom: 11.1px;
+    font-weight: bold;
+    font-size: 25.5px;
+}
+.meet
+.meet-grid .one .one001 span {
+    display: flex;
+    justify-content: space-between;
+}
+.meet
+.meet-grid .one .one001 span h4 {
+    margin: 0;
+    text-transform: capitalize;
+}
+.meet
+.meet-grid .one .one001 span div img {
+    width: 21.5px;
+}
+
+/* MEET MEDIA */
+@media (max-width: 767px) {
+    .meet
+.titmeet {
+    background-color: transparent;
+    width: 100%;
+}
+.meet
+.titmeet h2 {
+    text-transform: capitalize;
+    font-size: 35.5px;
+    font-weight: 800;
+    margin-top: 0;
+    text-align: center;
+}
+.meet
+.titmeet p {
+    font-size: 13.5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.meet
+.meet-grid {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 11.5px;
+    position: relative;
+}
+}
+
+/* SUPER */
+.super {
+    background-color: transparent;
+    padding-top: 35.5px;
+    padding-bottom: 35.5px;
+    position: relative;
+}
+.super
+.container {
+    background-color: transparent;
+    position: relative;
+}
+.super
+.super-grido {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 31.5px;
+}
+.super
+.super-grido div {
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    padding: 55.9px 25.5px;
+}
+.super
+.super-grido .one {
+    background-color: transparent;
+    padding: 9.5px;
+    position: relative;
+}
+.super
+.super-grido .one div {
+    background-image: url(../img/wood-ribbon-apartment-interiors-paris-toledano-architects_dezeen_sq-1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 95%;
+    position: relative;
+    padding: 35.5px 3.5px;
+}
+.super
+.super-grido .one span {
+    background-color: darkorange;
+    position: absolute;
+    text-align: center;
+    padding: 5.5px;
+    left: 50%;
+    top: 92%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.super
+.super-grido .one span p {
+    margin: 0;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 19.9px;
+}
+.super
+.super-grido .tow {
+    text-align: start;
+    text-transform: capitalize;
+}
+.super
+.super-grido .thre {
+    text-align: end;
+    text-transform: capitalize;
+}
+.super
+.super-grido .sianck {
+    background-image: url(../img/Screenshot-2022-02-24-at-09.55.04.webp);
+    background-size: cover;
+    background-position: center;
+}
+.super
+.super-grido .sis {
+    text-align: start;
+}
+.super
+.super-grido .sis div {
+    background-color: darkcyan;
+    padding: 9.9px;
+    margin-top: 21.9px;
+    width: fit-content;
+    border-top-right-radius: 25.9px ;
+    border-bottom-left-radius: 25.9px;
+}
+
+
+
+
+
+
+/* SUPER MEDIA */
+@media (max-width: 767px) {
+    .super
+.super-grido {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 31.5px;
+}
+.super
+.super-grido div {
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    padding: 25.9px 25.5px;
+}
+.super
+.super-grido .one div {
+    background-image: url(../img/wood-ribbon-apartment-interiors-paris-toledano-architects_dezeen_sq-1.webp);
+    background-size: cover;
+    background-position: center;
+    height: 95%;
+    position: relative;
+    padding: 85.5px 3.5px;
+}
+.super
+.super-grido .sianck {
+    background-image: url(../img/Screenshot-2022-02-24-at-09.55.04.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 85.5px 3.5px;
+}
+}
+
+/* FOOTER */
+footer {
+    background-color: transparent;
+    position: relative;
+}
+footer
+.container {
+    background-color: rgb(235, 235, 235);
+    padding-top: 8.5px;
+    padding-bottom: 35.5px;
+    position: relative;
+}
+footer
+.foot-grido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15.5px;
+    padding-bottom: 25.9px;
+    border-bottom: 1.5px solid black;
+}
+footer
+.foot-grido h3 {
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 37.9px;
+    font-weight: 800;
+    max-width: 30%;
+}
+footer
+.foot-grido form {
+    background-color: darkorange;
+    width: 305.5px;
+    height: 41.5px;
+    position: relative;
+    border: 2.9px solid white;
+    outline: 2.5px solid white;
+}
+footer
+.foot-grido form .search {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: bold;
+    border: 2.9px solid white;
+    outline: 2.5px solid white;
+}
+footer
+.foot-grido form .submit {
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: 2.9px solid yellow;
+    outline: 2.5px solid yellow;
+}
+footer
+.foot-grido2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 9.5px;
+}
+footer
+.foot-grido2
+.fotgr .one0 h4 {
+    margin-bottom: 41.5px;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 25.5px;
+}
+footer
+.foot-grido2
+.fotgr1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 59.9px;
+}
+footer
+.foot-grido2
+.fotgr1 .one h4 {
+    margin-bottom: 21.5px;
+    text-transform: capitalize;
+    font-size: 18.5px;
+    color: rgb(88, 88, 88);
+}
+
+/* FOOTER MEDIA */
+@media (max-width: 767px) {
+    footer {
+        background-color: transparent;
+        position: relative;
+    }
+    footer
+    .container {
+        background-color: rgb(235, 235, 235);
+        padding-top: 28.5px;
+        padding-bottom: 35.5px;
+        position: relative;
+    }
+    footer
+.foot-grido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15.5px;
+    padding-bottom: 25.9px;
+    border-bottom: 1.5px solid black;
+}
+footer
+.foot-grido h3 {
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 17.9px;
+    font-weight: 800;
+    max-width: 100%;
+}
+footer
+.foot-grido form {
+    background-color: darkorange;
+    width: 305.5px;
+    height: 41.5px;
+    position: relative;
+    border: 2.9px solid white;
+    outline: 2.5px solid white;
+}
+footer
+.foot-grido form .search {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 11.5px;
+    border: 2.9px solid white;
+    outline: 2.5px solid white;
+}
+footer
+.foot-grido form .submit {
+    background-color: yellow;
+    position: absolute;
+    font-weight: bold;
+    font-size: 11.5px;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: 2.9px solid yellow;
+    outline: 2.5px solid yellow;
+}
+
+
+footer
+.foot-grido2 {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 9.5px;
+    text-align: center;
+}
+footer
+.foot-grido2
+.fotgr .one0 h4 {
+    margin-bottom: 41.5px;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 25.5px;
+}
+footer
+.foot-grido2
+.fotgr1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 59.9px;
+}
+footer
+.foot-grido2
+.fotgr1 .one h4 {
+    margin-bottom: 21.5px;
+    text-transform: capitalize;
+    font-size: 18.5px;
+    color: rgb(88, 88, 88);
+}
+}
